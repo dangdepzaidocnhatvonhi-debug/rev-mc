@@ -24,7 +24,7 @@ def run_automation():
             print("IP của bạn có thể đã bị chặn bởi website")
         else:
             print(f"Lỗi {response.status_code} - {response.text}")
-        time.sleep(3000)
+        time.sleep(30)
 @app.route('/')
 def home():
     return "Renew đang chạy."
